@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopEasy - Product Catalog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <div class="logo"><i class="fas fa-shopping-bag"></i> ShopEasy</div>
+      <div class="search-bar">
+        <input type="text" class="search-input" placeholder="Search for products...">
+        <button class="search-btn"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul class="categories container">
+      <li><a href="#" class="category-link active" data-category="all">All</a></li>
+      <li><a href="#" class="category-link" data-category="men's clothing">Men</a></li>
+      <li><a href="#" class="category-link" data-category="women's clothing">Women</a></li>
+      <li><a href="#" class="category-link" data-category="jewelery">Jewelry</a></li>
+      <li><a href="#" class="category-link" data-category="electronics">Electronics</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main -->
+  <main class="container">
+    <h2 class="section-title">Our Products</h2>
+    <div id="products-container" class="products-grid">
+      <div class="loader"><i class="fas fa-spinner"></i></div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <h3 class="footer-logo">ShopEasy</h3>
+      <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+      <p>© 2025 ShopEasy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
